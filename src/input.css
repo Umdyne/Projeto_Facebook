@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .botao_face {
+        @apply border-gray-300 border rounded-lg w-full h-14 mb-2.5 pl-2
+              
+    }
+  }
